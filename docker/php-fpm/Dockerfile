@@ -1,0 +1,4 @@
+FROM php:8.1-fpm
+WORKDIR "/code"
+
+RUN docker-php-ext-install mysqli pdo pdo_mysql
